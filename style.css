@@ -1,0 +1,46 @@
+section{
+    background-color: blue;
+    padding: 100px;
+    padding-left: 20px;
+    background-image: url(backgr.jpg);
+    height: 200px;
+}
+div{
+    background-color: rgb(255, 255, 255);
+    border: 1px salmon;
+    padding: 1px;
+    padding-top: 80px;
+    height: 1px;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100px;
+}
+div button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration-color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+div button:hover{
+    background-color: rgb(33, 143, 6);
+}
+.outer-div{
+    margin-top: 20px;
+    text-align: inherit;
+}
+footer{
+    background-color: aliceblue;
+    padding: 20px;
+
+}
+.footer-content{
+    text-align: center;
+}
